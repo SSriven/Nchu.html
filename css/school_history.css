@@ -1,0 +1,10 @@
+section article table {
+    width:400px;
+    margin-bottom:500px;
+    margin-left: 200px;
+}
+section article table caption {
+    font-size:14px;
+    font-weight:bold;
+    padding-right:70px;
+}
