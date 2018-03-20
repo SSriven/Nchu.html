@@ -1,0 +1,50 @@
+body {
+    background:#ee9ca7;
+    padding:0;
+    margin:0;
+}
+#main {
+    width:50%;
+    position: absolute;
+    top:30%;
+    left:24%;
+    text-align: center;
+}
+div#happybirthday {
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+
+}
+.input {
+    outline: 0;
+    border:1px solid rgba(255,255,255,0.4);
+    color:white;
+    background:rgba(255,255,255,0.2);
+    width:200px;
+    border-radius:3px;
+    padding: 10px 15px;
+    margin:0px auto 10px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+}
+div#login {
+    outline: 0;
+    background: white;
+    border:0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width:200px;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    -webkit-appearance: none;
+    margin:0 auto;
+}
+a{
+    color:#ee9ca7;
+    text-decoration: none;
+}
