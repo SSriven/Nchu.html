@@ -33,7 +33,8 @@ div#happybirthday {
     color:white;
 
 }
-.input {
+form input {
+    display: block;
     outline: 0;
     border:1px solid rgba(255,255,255,0.4);
     color:white;
@@ -47,6 +48,14 @@ div#happybirthday {
     font-weight: 300;
     transition-duration: 0.25s;
     -webkit-transition-duration: 0.25s;
+}
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+form input:focus {
+  background-color: white;
+  width: 250px;
+  color: #ee9ca7;
 }
 div#login {
     outline: 0;
@@ -65,10 +74,13 @@ a{
     color:#ee9ca7;
     text-decoration: none;
 }
+a:hover{
+    font-weight:bold;
+}
 .bg-bubbles {
-    position: absolute;
-    top: 0;
-    left: 0;
+    /*! position: absolute; */
+    /*! top: 0; */
+    /*! left: 0; */
     width: 100%;
     height: 100%;
     z-index: 1;
