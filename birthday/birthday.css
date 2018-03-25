@@ -3,6 +3,7 @@ body {
     padding:0;
     margin:0;
     overflow: hidden;
+    height:638px;
 }
 section {
     margin:0 auto;
