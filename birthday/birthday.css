@@ -2,6 +2,7 @@ body {
     background:#ee9ca7;
     padding:0;
     margin:0;
+    overflow: hidden;
 }
 section {
     margin:0 auto;
