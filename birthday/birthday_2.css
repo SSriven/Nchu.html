@@ -844,7 +844,7 @@ div#notlike {
     9.4%{opacity: 0;}
     10.8%{opacity: 0;}
     12.2%{opacity: 0;}
-    13.6%{opacity: 100}
+    14.6%{opacity: 100}
     100%{opacity: 100;}
 }
 @-webkit-keyframes islike {
@@ -861,7 +861,7 @@ div#notlike {
     8%{opacity: 0;}
     10.8%{opacity: 0;}
     12.2%{opacity: 0;}
-    13.6%{opacity: 100}
+    14.6%{opacity: 100}
     100%{opacity: 100;}
 }
 @keyframes islike {
@@ -878,7 +878,7 @@ div#notlike {
     8%{opacity: 0;}
     10.8%{opacity: 0;}
     12.2%{opacity: 0;}
-    13.6%{opacity: 100}
+    14.6%{opacity: 100}
     100%{opacity: 100;}
 }
 @-o-keyframes islike {
@@ -895,6 +895,6 @@ div#notlike {
     8%{opacity: 0;}
     10.8%{opacity: 0;}
     12.2%{opacity: 0;}
-    13.6%{opacity: 100}
+    14.6%{opacity: 100}
     100%{opacity: 100;}
 }
