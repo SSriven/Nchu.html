@@ -172,7 +172,7 @@ div#candle{
     width:190px;
 }
 div#flame{
-    margin: 70px auto 0 auto;
+    margin: 20px auto 0 auto;
     animation: span8 122s infinite;
     -moz-animation:span8 122s infinite; /* Firefox */
     -webkit-animation:span8 122s infinite; /* Safari and Chrome */
@@ -203,109 +203,133 @@ div#text p{
     margin:0;
 
 }
+div#text p:nth-child(1) {
+    animation: text1 122s infinite;
+    -moz-animation:text1 122s infinite; /* Firefox */
+    -webkit-animation:text1 122s infinite; /* Safari and Chrome */
+    -o-animation:text1 122s infinite; /* Opera */
+}
+div#text p:nth-child(2) {
+    animation: text2 122s infinite;
+    -moz-animation:text2 122s infinite; /* Firefox */
+    -webkit-animation:text2 122s infinite; /* Safari and Chrome */
+    -o-animation:text2 122s infinite; /* Opera */
+}
+div#text p:nth-child(3) {
+    animation: text3 122s infinite;
+    -moz-animation:text3 122s infinite; /* Firefox */
+    -webkit-animation:text3 122s infinite; /* Safari and Chrome */
+    -o-animation:text3 122s infinite; /* Opera */
+}
+div#text p:nth-child(4) {
+    animation: text4 122s infinite;
+    -moz-animation:text4 122s infinite; /* Firefox */
+    -webkit-animation:text4 122s infinite; /* Safari and Chrome */
+    -o-animation:text4 122s infinite; /* Opera */
+}
 @-moz-keyframes span1 {
     0%{background: left:0;top:-100px;}
-    0.8%{background: left:0;top:300px;}
-    100%{background: left:0;top:300px;}
+    0.8%{background: left:0;top:250px;}
+    100%{background: left:0;top:250px;}
 }
 @-webkit-keyframes span1 {
     0%{background: left:0;top:-100px;}
-    0.8%{background: left:0;top:300px;}
-    100%{background: left:0;top:300px;}
+    0.8%{background: left:0;top:250px;}
+    100%{background: left:0;top:250px;}
 }
 @keyframes span1 {
     0%{background: left:0;top:-100px;}
-    0.8%{background: left:0;top:300px;}
-    100%{background: left:0;top:300px;}
+    0.8%{background: left:0;top:250px;}
+    100%{background: left:0;top:250px;}
 }
 @-o-keyframes span1 {
     0%{background: left:0;top:-100px;}
-    0.8%{background: left:0;top:300px;}
-    100%{background: left:0;top:300px;}
+    0.8%{background: left:0;top:250px;}
+    100%{background: left:0;top:250px;}
 }
 @-moz-keyframes span2 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
-    1.6%{background: left:0;top:280px;}
-    100%{background: left:0;top:280px;}
+    1.6%{background: left:0;top:230px;}
+    100%{background: left:0;top:230px;}
 }
 @-webkit-keyframes span2 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
-    1.6%{background: left:0;top:280px;}
-    100%{background: left:0;top:280px;}
+    1.6%{background: left:0;top:230px;}
+    100%{background: left:0;top:230px;}
 }
 @keyframes span2 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
-    1.6%{background: left:0;top:280px;}
-    100%{background: left:0;top:280px;}
+    1.6%{background: left:0;top:230px;}
+    100%{background: left:0;top:230px;}
 }
 @-o-keyframes span2 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
-    1.6%{background: left:0;top:280px;}
-    100%{background: left:0;top:280px;}
+    1.6%{background: left:0;top:230px;}
+    100%{background: left:0;top:230px;}
 }
 @-moz-keyframes span3 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
-    2.2%{background: left:0; top:255px;}
-    100%{background: left:0;top:255px;}
+    2.2%{background: left:0; top:205px;}
+    100%{background: left:0;top:205px;}
 }
 @-webkit-keyframes span3 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
-    2.2%{background: left:0; top:255px;}
-    100%{background: left:0;top:255px;}
+    2.2%{background: left:0; top:205px;}
+    100%{background: left:0;top:205px;}
 }
 @keyframes span3 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
-    2.2%{background: left:0; top:255px;}
-    100%{background: left:0;top:255px;}
+    2.2%{background: left:0; top:205px;}
+    100%{background: left:0;top:205px;}
 }
 @-o-keyframes span3 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
-    2.2%{background: left:0; top:255px;}
-    100%{background: left:0;top:255px;}
+    2.2%{background: left:0; top:205px;}
+    100%{background: left:0;top:205px;}
 }
 @-moz-keyframes span4 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
-    3.0%{background: left:0;top:228px;}
-    100%{background: left:0;top:228px;}
+    3.0%{background: left:0;top:178px;}
+    100%{background: left:0;top:178px;}
 }
 @-webkit-keyframes span4 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
-    3.0%{background: left:0;top:228px;}
-    100%{background: left:0;top:228px;}
+    3.0%{background: left:0;top:178px;}
+    100%{background: left:0;top:178px;}
 }
 @keyframes span4 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
-    3.0%{background: left:0;top:228px;}
-    100%{background: left:0;top:228px;}
+    3.0%{background: left:0;top:178px;}
+    100%{background: left:0;top:178px;}
 }
 @-o-keyframes span4 {
     0%{background: left:0;top:-100px;}
     0.8%{background: left:0;top:-100px;}
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
-    3.0%{background: left:0;top:228px;}
-    100%{background: left:0;top:228px;}
+    3.0%{background: left:0;top:178px;}
+    100%{background: left:0;top:178px;}
 }
 @-moz-keyframes span5 {
     0%{background: left:0;top:-100px;}
@@ -313,8 +337,8 @@ div#text p{
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
-    3.6%{background: left:0;top:203px;}
-    100%{background: left:0;top:203px;}
+    3.6%{background: left:0;top:153px;}
+    100%{background: left:0;top:153px;}
 }
 @-webkit-keyframes span5 {
     0%{background: left:0;top:-100px;}
@@ -322,8 +346,8 @@ div#text p{
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
-    3.6%{background: left:0;top:203px;}
-    100%{background: left:0;top:203px;}
+    3.6%{background: left:0;top:153px;}
+    100%{background: left:0;top:153px;}
 }
 @keyframes span5 {
     0%{background: left:0;top:-100px;}
@@ -331,8 +355,8 @@ div#text p{
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
-    3.6%{background: left:0;top:203px;}
-    100%{background: left:0;top:203px;}
+    3.6%{background: left:0;top:153px;}
+    100%{background: left:0;top:153px;}
 }
 @-o-keyframes span5 {
     0%{background: left:0;top:-100px;}
@@ -340,8 +364,8 @@ div#text p{
     1.6%{background: left:0;top:-100px;}
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
-    3.6%{background: left:0;top:203px;}
-    100%{background: left:0;top:203px;}
+    3.6%{background: left:0;top:153px;}
+    100%{background: left:0;top:153px;}
 }
 @-moz-keyframes span6 {
     0%{background: left:0;top:-100px;}
@@ -350,8 +374,8 @@ div#text p{
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
-    4.4%{background: left:0;top:178px;}
-    100%{background: left:0;top:178px;}
+    4.4%{background: left:0;top:128px;}
+    100%{background: left:0;top:128px;}
 }
 @-webkit-keyframes span6 {
     0%{background: left:0;top:-100px;}
@@ -360,8 +384,8 @@ div#text p{
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
-    4.4%{background: left:0;top:178px;}
-    100%{background: left:0;top:178px;}
+    4.4%{background: left:0;top:128px;}
+    100%{background: left:0;top:128px;}
 }
 @keyframes span6 {
     0%{background: left:0;top:-100px;}
@@ -370,8 +394,8 @@ div#text p{
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
-    4.4%{background: left:0;top:178px;}
-    100%{background: left:0;top:178px;}
+    4.4%{background: left:0;top:128px;}
+    100%{background: left:0;top:128px;}
 }
 @-o-keyframes span6 {
     0%{background: left:0;top:-100px;}
@@ -380,8 +404,8 @@ div#text p{
     2.2%{background: left:0; top:-100px;}
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
-    4.4%{background: left:0;top:178px;}
-    100%{background: left:0;top:178px;}
+    4.4%{background: left:0;top:128px;}
+    100%{background: left:0;top:128px;}
 }
 @-moz-keyframes span7 {
     0%{background: left:0;top:-100px;}
@@ -391,8 +415,8 @@ div#text p{
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
     4.4%{background: left:0;top:-100px;}
-    5.0%{background: left:0;top:153px;}
-    100%{background: left:0;top:153px;}
+    5.0%{background: left:0;top:103px;}
+    100%{background: left:0;top:103px;}
 }
 @-webkit-keyframes span7 {
     0%{background: left:0;top:-100px;}
@@ -402,8 +426,8 @@ div#text p{
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
     4.4%{background: left:0;top:-100px;}
-    5.0%{background: left:0;top:153px;}
-    100%{background: left:0;top:153px;}
+    5.0%{background: left:0;top:103px;}
+    100%{background: left:0;top:103px;}
 }
 @keyframes span7 {
     0%{background: left:0;top:-100px;}
@@ -413,8 +437,8 @@ div#text p{
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
     4.4%{background: left:0;top:-100px;}
-    5.0%{background: left:0;top:153px;}
-    100%{background: left:0;top:153px;}
+    5.0%{background: left:0;top:103px;}
+    100%{background: left:0;top:103px;}
 }
 @-o-keyframes span7 {
     0%{background: left:0;top:-100px;}
@@ -424,8 +448,8 @@ div#text p{
     3.0%{background: left:0;top:-100px;}
     3.6%{background: left:0;top:-100px;}
     4.4%{background: left:0;top:-100px;}
-    5.0%{background: left:0;top:153px;}
-    100%{background: left:0;top:153px;}
+    5.0%{background: left:0;top:103px;}
+    100%{background: left:0;top:103px;}
 }
 @-moz-keyframes span8 {
     0%{opacity: 0;}
@@ -525,5 +549,250 @@ div#text p{
     5.0%{opacity: 0;}
     5.8%{opacity: 0;}
     6.6%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-moz-keyframes text1 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-webkit-keyframes text1 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@keyframes text1 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-o-keyframes text1 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-moz-keyframes text2 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-webkit-keyframes text2 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@keyframes text2 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-o-keyframes text2 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-moz-keyframes text3 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 0;}
+    10.8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-webkit-keyframes text3 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 0;}
+    10.8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@keyframes text3 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 0;}
+    10.8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-o-keyframes text3 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 0;}
+    10.8%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-moz-keyframes text4 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    9.4%{opacity: 0;}
+    10.8%{opacity: 0;}
+    12.2%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-webkit-keyframes text4 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    10.8%{opacity: 0;}
+    12.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@keyframes text4 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    10.8%{opacity: 0;}
+    12.4%{opacity: 100;}
+    100%{opacity: 100;}
+}
+@-o-keyframes text4 {
+    0%{opacity: 0;}
+    0.8%{opacity: 0;}
+    1.6%{opacity: 0;}
+    2.2%{opacity: 0;}
+    3.0%{opacity: 0;}
+    3.6%{opacity: 0;}
+    4.4%{opacity: 0;}
+    5.0%{opacity: 0;}
+    5.8%{opacity: 0;}
+    6.6%{opacity: 0;}
+    8%{opacity: 0;}
+    10.8%{opacity: 0;}
+    12.4%{opacity: 100;}
     100%{opacity: 100;}
 }
