@@ -21,40 +21,40 @@ div#hf {
 }
 #head p:nth-child(1) {
     animation: p1 236s linear;
-    -webkit-animation:p1 236s linear ;
+    -webkit-animation:p1 236s linear infinite ;
     margin-top: 40px;
 }
 #head p:nth-child(2) {
-    animation: p2 236s linear;
-    -webkit-animation:p2 236s linear ;
+    animation: p2 236s linear infinite;
+    -webkit-animation:p2 236s linear infinite ;
 }
 #head p:nth-child(3) {
-    animation: p3 236s linear;
-    -webkit-animation:p3 236s linear ;
+    animation: p3 236s linear infinite;
+    -webkit-animation:p3 236s linear infinite ;
 }
 #head p:nth-child(4) {
-    animation: p4 236s linear;
-    -webkit-animation:p4 236s linear ;
+    animation: p4 236s linear infinite;
+    -webkit-animation:p4 236s linear infinite ;
 }
 #head p:nth-child(5) {
-    animation: p5 236s linear;
-    -webkit-animation:p5 236s linear ;
+    animation: p5 236s linear infinite;
+    -webkit-animation:p5 236s linear infinite ;
 }
 #head p:nth-child(6) {
-    animation: p6 236s linear;
-    -webkit-animation:p6 236s linear ;
+    animation: p6 236s linear infinite;
+    -webkit-animation:p6 236s linear infinite ;
 }
 #head p:nth-child(7) {
-    animation: p7 236s linear;
-    -webkit-animation:p7 236s linear ;
+    animation: p7 236s linear infinite;
+    -webkit-animation:p7 236s linear infinite ;
 }
 #head p:nth-child(8) {
-    animation: p8 236s linear;
-    -webkit-animation:p8 236s linear ;
+    animation: p8 236s linear infinite;
+    -webkit-animation:p8 236s linear infinite ;
 }
 #head p:nth-child(9) {
-    animation: p9 236s linear;
-    -webkit-animation:p9 236s linear ;
+    animation: p9 236s linear infinite;
+    -webkit-animation:p9 236s linear infinite ;
 }
 #first {
 
@@ -85,12 +85,12 @@ div#hf {
     left: 20%;
 }
 #first .ball {
-    animation: firstball 236s linear;
-    -webkit-animation:firstball 236s linear ;
+    animation: firstball 236s linear infinite;
+    -webkit-animation:firstball 236s linear infinite ;
 }
 #first .nav {
-    animation: firstnav 236s linear;
-    -webkit-animation: firstnav 236s linear;
+    animation: firstnav 236s linear infinite;
+    -webkit-animation: firstnav 236s linear infinite;
 }
 #textbox1 {
 
@@ -103,8 +103,8 @@ div#hf {
     top: -20px;
     overflow: hidden;
     font-family: Microsoft YaHei;
-    animation: first_textbox1 236s linear;
-    -webkit-animation: first_textbox1 236s linear ;
+    animation: first_textbox1 236s linear infinite;
+    -webkit-animation: first_textbox1 236s linear infinite ;
 }
 #textbox1 span {
     padding: 10px 15px;
@@ -128,40 +128,40 @@ div#hf {
 
 }
 #first .flag {
-    animation: first_flag 236s linear;
-    -webkit-animation: first_flag 236s linear;
+    animation: first_flag 236s linear infinite;
+    -webkit-animation: first_flag 236s linear infinite;
 }
 #textbox1 span:nth-child(1) {
 
     font-size: 30px;
     font-family: Microsoft YaHei;
-    animation: first_span1 236s linear;
-    -webkit-animation: first_span1 236s linear;
+    animation: first_span1 236s linear infinite;
+    -webkit-animation: first_span1 236s linear infinite;
 }
 #textbox1 span:nth-child(2) {
 
     font-size: 25px;
-    animation: first_span2 236s linear;
-    -webkit-animation: first_span2 236s linear;
+    animation: first_span2 236s linear infinite;
+    -webkit-animation: first_span2 236s linear infinite;
 
 }
 #textbox1 span:nth-child(3) {
 
     font-size: 25px;
-    animation: first_span3 236s linear;
-    -webkit-animation: first_span3 236s linear;
+    animation: first_span3 236s linear infinite;
+    -webkit-animation: first_span3 236s linear infinite;
 
 }
 #textbox1 span:nth-child(4) {
     font-size: 25px;
-    animation: first_span4 236s linear;
-    -webkit-animation: first_span4 236s linear;
+    animation: first_span4 236s linear infinite;
+    -webkit-animation: first_span4 236s linear infinite;
 
 }
 #textbox1 span:nth-child(5) {
     font-size: 25px;
-    animation: first_span5 236s linear;
-    -webkit-animation: first_span5 236s linear;
+    animation: first_span5 236s linear infinite;
+    -webkit-animation: first_span5 236s linear infinite;
 
 }
 #second {
@@ -170,12 +170,12 @@ div#hf {
     position: absolute;
 }
 #second .ball {
-    animation: secondball 236s linear;
-    -webkit-animation:secondball 236s linear ;
+    animation: secondball 236s linear infinite;
+    -webkit-animation:secondball 236s linear infinite ;
 }
 #second .nav {
-    animation: secondnav 236s linear;
-    -webkit-animation:secondnav 236s linear ;
+    animation: secondnav 236s linear infinite;
+    -webkit-animation:secondnav 236s linear infinite ;
 }
 #textbox2 {
     width: 0;
@@ -187,8 +187,8 @@ div#hf {
     top: -20px;
     overflow: hidden;
     font-family: Microsoft YaHei;
-    animation: second_textbox2 236s linear;
-    -webkit-animation: second_textbox2 236s linear ;
+    animation: second_textbox2 236s linear infinite;
+    -webkit-animation: second_textbox2 236s linear infinite ;
 }
 #textbox2 span {
     display: block;
@@ -197,80 +197,80 @@ div#hf {
     font-size: 12px;
 }
 #second .flag {
-    animation: second_flag 236s linear;
-    -webkit-animation: second_flag 236s linear;
+    animation: second_flag 236s linear infinite;
+    -webkit-animation: second_flag 236s linear infinite;
 }
 #textbox2 span:nth-child(1) {
     font-size: 24px;
-    animation: second_span1 236s linear;
-    -webkit-animation: second_span1 236s linear;
+    animation: second_span1 236s linear infinite;
+    -webkit-animation: second_span1 236s linear infinite;
 }
 #textbox2 span:nth-child(2) {
-    animation: second_span2 236s linear;
-    -webkit-animation: second_span2 236s linear;
+    animation: second_span2 236s linear infinite;
+    -webkit-animation: second_span2 236s linear infinite;
 }#textbox2 span:nth-child(3) {
-     animation: second_span3 236s linear;
-     -webkit-animation: second_span3 236s linear;
+     animation: second_span3 236s linear infinite;
+     -webkit-animation: second_span3 236s linear infinite;
  }
 #textbox2 span:nth-child(4) {
-    animation: second_span 236s linear;
-    -webkit-animation: second_span4 236s linear;
+    animation: second_span 236s linear infinite;
+    -webkit-animation: second_span4 236s linear infinite;
 }
 #textbox2 span:nth-child(5) {
-    animation: second_span5 236s linear;
-    -webkit-animation: second_span5 236s linear;
+    animation: second_span5 236s linear infinite;
+    -webkit-animation: second_span5 236s linear infinite;
 }
 #textbox2 span:nth-child(6) {
-    animation: second_span6 236s linear;
-    -webkit-animation:second_span6  236s linear;
+    animation: second_span6 236s linear infinite;
+    -webkit-animation:second_span6  236s linear infinite;
 }
 #textbox2 span:nth-child(7) {
-    animation: second_span7 236s linear;
-    -webkit-animation: second_span7 236s linear;
+    animation: second_span7 236s linear infinite;
+    -webkit-animation: second_span7 236s linear infinite;
 }
 #textbox2 span:nth-child(8) {
-    animation: second_span8 236s linear;
-    -webkit-animation: second_span8 236s linear;
+    animation: second_span8 236s linear infinite;
+    -webkit-animation: second_span8 236s linear infinite;
 }
 #textbox2 span:nth-child(9) {
-    animation: second_span9 236s linear;
-    -webkit-animation: second_span9 236s linear;
+    animation: second_span9 236s linear infinite;
+    -webkit-animation: second_span9 236s linear infinite;
 }
 #textbox2 span:nth-child(10) {
-    animation: second_span10 236s linear;
-    -webkit-animation: second_span10 236s linear;
+    animation: second_span10 236s linear infinite;
+    -webkit-animation: second_span10 236s linear infinite;
 }
 #textbox2 span:nth-child(11) {
-    animation: second_span11 236s linear;
-    -webkit-animation: second_span11 236s linear;
+    animation: second_span11 236s linear infinite;
+    -webkit-animation: second_span11 236s linear infinite;
 }
 #textbox2 span:nth-child(12) {
-    animation: second_span12 236s linear;
-    -webkit-animation: second_span12 236s linear;
+    animation: second_span12 236s linear infinite;
+    -webkit-animation: second_span12 236s linear infinite;
 }
 #textbox2 span:nth-child(13) {
-    animation: second_span13 236s linear;
-    -webkit-animation: second_span13 236s linear;
+    animation: second_span13 236s linear infinite;
+    -webkit-animation: second_span13 236s linear infinite;
 }
 #textbox2 span:nth-child(14) {
-    animation: second_span14 236s linear;
-    -webkit-animation: second_span14 236s linear;
+    animation: second_span14 236s linear infinite;
+    -webkit-animation: second_span14 236s linear infinite;
 }
 #textbox2 span:nth-child(15) {
-    animation: second_span15 236s linear;
-    -webkit-animation: second_span15 236s linear;
+    animation: second_span15 236s linear infinite;
+    -webkit-animation: second_span15 236s linear infinite;
 }
 #textbox2 span:nth-child(16) {
-    animation: second_span16 236s linear;
-    -webkit-animation: second_span16 236s linear;
+    animation: second_span16 236s linear infinite;
+    -webkit-animation: second_span16 236s linear infinite;
 }
 #textbox2 span:nth-child(17) {
-    animation: second_span17 236s linear;
-    -webkit-animation: second_span17 236s linear;
+    animation: second_span17 236s linear infinite;
+    -webkit-animation: second_span17 236s linear infinite;
 }
 #textbox2 span:nth-child(18) {
-    animation: second_span18 236s linear;
-    -webkit-animation: second_span18 236s linear;
+    animation: second_span18 236s linear infinite;
+    -webkit-animation: second_span18 236s linear infinite;
 }
 @keyframes p1 {
     0%{
@@ -1138,11 +1138,11 @@ div#hf {
         top: 10%;
     }
     35%{
-        width:30%;
-        height: 40%;
+        width:0;
+        height: 0;
         opacity: 0;
         left: 30%;
-        top: -100px;
+        top: 0;
     }
 }
 @-webkit-keyframes second_textbox2 {
@@ -1171,11 +1171,11 @@ div#hf {
         top: 10%;
     }
     35%{
-        width:30%;
-        height: 40%;
+        width:0;
+        height: 0;
         opacity: 0;
         left: 30%;
-        top: -100px;
+        top: 0;
     }
 }
 @keyframes second_flag {
